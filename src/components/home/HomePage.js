@@ -4,10 +4,10 @@ function HomePage() {
 
   return (
     <>
-      <Button ClassName="" variant="primary">Primary</Button>
-      <Button ClassName="" variant="primary">Primary</Button>
-      <Button ClassName="" variant="primary">Primary</Button>
-      <Button ClassName="" variant="primary">Primary</Button>
+      <Button style={{width: "70px"}} variant="primary">Primary</Button>
+      <Button ClassName="button" variant="primary">Primary</Button>
+      <Button ClassName="button" variant="primary">Primary</Button>
+      <Button ClassName="button" variant="primary">Primary</Button>
     </>
   );
 }
